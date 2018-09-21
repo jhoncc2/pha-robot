@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "PBMessageController",
+	"category" : "PhaRobot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"data",
+		"textProcessor",
+		"processorClass"
+	],
+	"name" : "PBDictMessageController",
+	"type" : "normal"
+}

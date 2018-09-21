@@ -1,0 +1,3 @@
+processing
+processMessage: msgString
+	self subclassResponsibility

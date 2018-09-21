@@ -1,4 +1,4 @@
-configuration
+start
 startChatBot
 	bot := DSBot new.
 	bot token: self token.
@@ -7,7 +7,6 @@ startChatBot
 	self targetServer: 'BatSignal-test'.
 	self channelsToOmit: {'general'}.
 	"self channelsToListen: {'bot-test-channel'}."
-	"self channelsToListen:{}."
 	
 	bot announcer 
 		when: DSGatewayMessageAnnouncement

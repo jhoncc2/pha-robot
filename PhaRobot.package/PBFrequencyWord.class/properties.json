@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BTTextProcesser",
+	"category" : "PhaRobot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"searchQuestion"
+	],
+	"name" : "PBFrequencyWord",
+	"type" : "normal"
+}
