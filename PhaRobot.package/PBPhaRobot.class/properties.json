@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "PhaRobot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"bot",
+		"listeningList",
+		"targetServer",
+		"omittedList"
+	],
+	"name" : "PBPhaRobot",
+	"type" : "normal"
+}
