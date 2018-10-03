@@ -5,9 +5,7 @@ processMessage: aDSMessage
 	rated := d collectWithIndex: [ :e :i | 
 		self textProcessor rateData: e key withMsg: aDSMessage content ].
 	
-	rated := rated reject: #isZero.
-	
-	rated ifEmpty: [ BTUnknowQuestion new messageText: 'I cant understand what you are saying :('; signal ].
+	rated max < 0.5 ifTrue: [ BTUnknowQuestion new messageText: 'I cant understand what you are saying :('; signal ].
 	
 	maxRatedIndex := rated indexOf: rated max.
 	

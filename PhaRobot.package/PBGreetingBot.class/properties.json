@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "PBPhaRobot",
+	"category" : "PhaRobot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "PBGreetingBot",
+	"type" : "normal"
+}
