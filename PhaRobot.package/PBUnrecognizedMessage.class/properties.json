@@ -1,13 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "PBTextProcesser",
+	"super" : "PBBaseException",
 	"category" : "PhaRobot",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"searchQuestion"
-	],
-	"name" : "PBFrequencyWord",
+	"instvars" : [ ],
+	"name" : "PBUnrecognizedMessage",
 	"type" : "normal"
 }

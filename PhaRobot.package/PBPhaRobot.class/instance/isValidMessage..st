@@ -4,5 +4,5 @@ isValidMessage: aDSmsg
 		or: [(aDSmsg author isBot) 
 			or:[aDSmsg content isNil 
 				or: [aDSmsg content isEmpty]]]) not 
-		and: [ self isChannelOmmited: aDSmsg channelId ]
+		and: [ (self isChannelOmmited: aDSmsg channelId) not ] 
 		

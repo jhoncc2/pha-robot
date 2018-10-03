@@ -4,7 +4,7 @@ startChatBot
 	bot token: self token.
 	bot connect.
 
-	self targetServer: 'BatSignal-test'.
+	self targetServer: 'some_other_test'.
 	self channelsToOmit: {'general'}.
 	"self channelsToListen: {'bot-test-channel'}."
 	

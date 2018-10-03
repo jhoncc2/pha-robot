@@ -5,13 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"bot",
-		"listeningList",
-		"targetServer",
-		"omittedList",
-		"controller"
-	],
-	"name" : "PBPhaRobot",
+	"instvars" : [ ],
+	"name" : "PBTextProcesser",
 	"type" : "normal"
 }
